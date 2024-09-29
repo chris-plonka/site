@@ -7,7 +7,7 @@ function AnimatedName() {
       <span className="sr-only">Lee Robinson</span>
       <span aria-hidden="true" className="block overflow-hidden group relative">
         <span className="inline-block transition-all duration-300 ease-in-out group-hover:-translate-y-full">
-          {'Lee Robinson'.split('').map((letter, index) => (
+          {'Krzysztof Płonka'.split('').map((letter, index) => (
             <span
               key={index}
               className="inline-block"
@@ -18,7 +18,7 @@ function AnimatedName() {
           ))}
         </span>
         <span className="inline-block absolute left-0 top-0 transition-all duration-300 ease-in-out translate-y-full group-hover:translate-y-0">
-          {'leerob'.split('').map((letter, index) => (
+          {'chris-plonka'.split('').map((letter, index) => (
             <span
               key={index}
               className="inline-block"
